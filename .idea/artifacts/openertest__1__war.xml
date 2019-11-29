@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="openertest (1):war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>openertest (1)</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="salesreport.war">
+      <element id="artifact" artifact-name="openertest (1):war exploded" />
+    </root>
+  </artifact>
+</component>

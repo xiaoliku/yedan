@@ -1,0 +1,7 @@
+<suite name="somke">
+    <test verbose="1" name="smoke" >
+        <classes>
+            <class name="com.java.util..SmokeTest"/>
+        </classes>
+    </test>
+</suite>
