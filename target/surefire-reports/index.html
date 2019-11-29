@@ -23,7 +23,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -36,8 +36,8 @@
       <div class="suite">
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
-            <a href="#" class="navigator-link" panel-name="suite-MycharSetUtilsTest">
-              <span class="suite-name border-passed">MycharSetUtilsTest</span>
+            <a href="#" class="navigator-link" panel-name="suite-openertest">
+              <span class="suite-name border-failed">openertest</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -47,37 +47,37 @@
             <div class="suite-section-content">
               <ul>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="test-xml-MycharSetUtilsTest">
-                    <span>[unset file name]</span>
+                  <a href="#" class="navigator-link " panel-name="test-xml-openertest">
+                    <span>C:\Users\user\Downloads\LoginDemoReposity-master\openertest\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="testlist-MycharSetUtilsTest">
+                  <a href="#" class="navigator-link " panel-name="testlist-openertest">
                     <span class="test-stats">1 test</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="group-MycharSetUtilsTest">
+                  <a href="#" class="navigator-link " panel-name="group-openertest">
                     <span>0 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="times-MycharSetUtilsTest">
+                  <a href="#" class="navigator-link " panel-name="times-openertest">
                     <span>Times</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="reporter-MycharSetUtilsTest">
+                  <a href="#" class="navigator-link " panel-name="reporter-openertest">
                     <span>Reporter output</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="ignored-methods-MycharSetUtilsTest">
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-openertest">
                     <span>Ignored methods</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
-                  <a href="#" class="navigator-link " panel-name="chronological-MycharSetUtilsTest">
+                  <a href="#" class="navigator-link " panel-name="chronological-openertest">
                     <span>Chronological view</span>
                   </a> <!-- navigator-link  -->
                 </li>
@@ -90,7 +90,50 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">0 methods,   </span>
+                    <span class="method-stats">5 methods, 3 failed,   2 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-openertest" class="hide-methods failed suite-openertest"> (hide)</a> <!-- hide-methods failed suite-openertest -->
+                      <a href="#" panel-name="suite-openertest" class="show-methods failed suite-openertest"> (show)</a> <!-- show-methods failed suite-openertest -->
+                    </span>
+                    <div class="method-list-content failed suite-openertest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-openertest" title="util.MycharSetUtilsTest" hash-for-method="count1">count1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-openertest" title="util.MycharSetUtilsTest" hash-for-method="delete1">delete1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-openertest" title="util.MycharSetUtilsTest" hash-for-method="keep1">keep1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-openertest -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-openertest" class="hide-methods passed suite-openertest"> (hide)</a> <!-- hide-methods passed suite-openertest -->
+                      <a href="#" panel-name="suite-openertest" class="show-methods passed suite-openertest"> (show)</a> <!-- show-methods passed suite-openertest -->
+                    </span>
+                    <div class="method-list-content passed suite-openertest">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-openertest" title="util.MycharSetUtilsTest" hash-for-method="containsAny1">containsAny1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-openertest" title="util.MycharSetUtilsTest" hash-for-method="squeeze1">squeeze1</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-openertest -->
                   </li>
                 </ul>
               </div> <!-- suite-section-content -->
@@ -101,87 +144,441 @@
     </div> <!-- navigator-root -->
     <div class="wrapper">
       <div class="main-panel-root">
-        <div panel-name="suite-MycharSetUtilsTest" class="panel MycharSetUtilsTest">
-        </div> <!-- panel MycharSetUtilsTest -->
-        <div panel-name="test-xml-MycharSetUtilsTest" class="panel">
+        <div panel-name="suite-openertest" class="panel openertest">
+          <div class="suite-openertest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">util.MycharSetUtilsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="count1">
+                  </a> <!-- count1 -->
+                  <span class="method-name">count1</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;1.0&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:575)
+	at org.junit.Assert.assertEquals(Assert.java:700)
+	at util.MycharSetUtilsTest.count1(MycharSetUtilsTest.java:33)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 23 stack frames<br/> java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;1.0&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:575)
+	at org.junit.Assert.assertEquals(Assert.java:700)
+	at util.MycharSetUtilsTest.count1(MycharSetUtilsTest.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1012)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+"</b><br>org.junit.Assert.fail(Assert.java:88)<br>org.junit.Assert.failNotEquals(Assert.java:834)<br>org.junit.Assert.assertEquals(Assert.java:575)<br>org.junit.Assert.assertEquals(Assert.java:700)<br>util.MycharSetUtilsTest.count1(MycharSetUtilsTest.java:33)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)<br>org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)<br>org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br>org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br>org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)<br>org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)<br>org.testng.TestRunner$1.run(TestRunner.java:682)<br>org.testng.TestRunner.runWorkers(TestRunner.java:1012)<br>org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)<br>org.testng.TestRunner.run(TestRunner.java:614)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)<br>org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)<br>org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="delete1">
+                  </a> <!-- delete1 -->
+                  <span class="method-name">delete1</span>
+                  <div class="stack-trace"><b>"java.lang.AssertionError: expected:&lt;*&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at util.MycharSetUtilsTest.delete1(MycharSetUtilsTest.java:53)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 23 stack frames<br/> java.lang.AssertionError: expected:&lt;*&gt; but was:&lt;null&gt;
+	at org.junit.Assert.fail(Assert.java:88)
+	at org.junit.Assert.failNotEquals(Assert.java:834)
+	at org.junit.Assert.assertEquals(Assert.java:118)
+	at util.MycharSetUtilsTest.delete1(MycharSetUtilsTest.java:53)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1012)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+"</b><br>org.junit.Assert.fail(Assert.java:88)<br>org.junit.Assert.failNotEquals(Assert.java:834)<br>org.junit.Assert.assertEquals(Assert.java:118)<br>util.MycharSetUtilsTest.delete1(MycharSetUtilsTest.java:53)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)<br>org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)<br>org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br>org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br>org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)<br>org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)<br>org.testng.TestRunner$1.run(TestRunner.java:682)<br>org.testng.TestRunner.runWorkers(TestRunner.java:1012)<br>org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)<br>org.testng.TestRunner.run(TestRunner.java:614)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)<br>org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)<br>org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="keep1">
+                  </a> <!-- keep1 -->
+                  <span class="method-name">keep1</span>
+                  <div class="stack-trace"><b>"org.junit.ComparisonFailure: null expected:&lt;[]&gt; but was:&lt;[null]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at util.MycharSetUtilsTest.keep1(MycharSetUtilsTest.java:40)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+... Removed 23 stack frames<br/> org.junit.ComparisonFailure: null expected:&lt;[]&gt; but was:&lt;[null]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at util.MycharSetUtilsTest.keep1(MycharSetUtilsTest.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:115)
+	at org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)
+	at org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)
+	at org.testng.TestRunner$1.run(TestRunner.java:682)
+	at org.testng.TestRunner.runWorkers(TestRunner.java:1012)
+	at org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1123)
+	at org.testng.TestNG.run(TestNG.java:1031)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+"</b><br>org.junit.Assert.assertEquals(Assert.java:115)<br>util.MycharSetUtilsTest.keep1(MycharSetUtilsTest.java:40)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)<br>org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)<br>org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)<br>org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)<br>org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)<br>org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)<br>org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)<br>org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)<br>org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)<br>org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)<br>org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)<br>org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)<br>org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)<br>org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)<br>org.junit.runners.ParentRunner.run(ParentRunner.java:363)<br>org.junit.runner.JUnitCore.run(JUnitCore.java:137)<br>org.junit.runner.JUnitCore.run(JUnitCore.java:115)<br>org.testng.junit.JUnit4TestRunner.start(JUnit4TestRunner.java:81)<br>org.testng.junit.JUnit4TestRunner.run(JUnit4TestRunner.java:69)<br>org.testng.TestRunner$1.run(TestRunner.java:682)<br>org.testng.TestRunner.runWorkers(TestRunner.java:1012)<br>org.testng.TestRunner.privateRunJUnit(TestRunner.java:713)<br>org.testng.TestRunner.run(TestRunner.java:614)<br>org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br>org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br>org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br>org.testng.SuiteRunner.run(SuiteRunner.java:240)<br>org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br>org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br>org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br>org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br>org.testng.TestNG.run(TestNG.java:1031)<br>org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:178)<br>org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br>org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:96)<br>sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br>sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br>sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br>java.lang.reflect.Method.invoke(Method.java:498)<br>org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)<br>org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)<br>org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)<br>org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)<br>org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)<br>
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-openertest-class-failed -->
+          <div class="suite-openertest-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">util.MycharSetUtilsTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="containsAny1">
+                  </a> <!-- containsAny1 -->
+                  <span class="method-name">containsAny1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="squeeze1">
+                  </a> <!-- squeeze1 -->
+                  <span class="method-name">squeeze1</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-openertest-class-passed -->
+        </div> <!-- panel openertest -->
+        <div panel-name="test-xml-openertest" class="panel">
           <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\user\Downloads\LoginDemoReposity-master\openertest\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite verbose=&quot;0&quot; name=&quot;MycharSetUtilsTest&quot;&gt;
-  &lt;test name=&quot;Command line test&quot; preserve-order=&quot;false&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;openertest&quot;&gt;
+  &lt;test name=&quot;test&quot; junit=&quot;true&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;MycharSetUtilsTest&quot;/&gt;
+      &lt;class name=&quot;util.MycharSetUtilsTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Command line test --&gt;
-&lt;/suite&gt; &lt;!-- MycharSetUtilsTest --&gt;
+  &lt;/test&gt; &lt;!-- test --&gt;
+&lt;/suite&gt; &lt;!-- openertest --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="testlist-MycharSetUtilsTest" class="panel">
+        <div panel-name="testlist-openertest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Tests for MycharSetUtilsTest</span>
+            <span class="header-content">Tests for openertest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Command line test (1 class)</span>
+                <span class="test-name">test (1 class)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="group-MycharSetUtilsTest" class="panel">
+        <div panel-name="group-openertest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Groups for MycharSetUtilsTest</span>
+            <span class="header-content">Groups for openertest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="times-MycharSetUtilsTest" class="panel">
+        <div panel-name="times-openertest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Times for MycharSetUtilsTest</span>
+            <span class="header-content">Times for openertest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="times-div">
               <script type="text/javascript">
-suiteTableInitFunctions.push('tableData_MycharSetUtilsTest');
-function tableData_MycharSetUtilsTest() {
+suiteTableInitFunctions.push('tableData_openertest');
+function tableData_openertest() {
 var data = new google.visualization.DataTable();
 data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(0);
-window.suiteTableData['MycharSetUtilsTest']= { tableData: data, tableDiv: 'times-div-MycharSetUtilsTest'}
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'count1')
+data.setCell(0, 2, 'util.MycharSetUtilsTest')
+data.setCell(0, 3, 53);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'containsAny1')
+data.setCell(1, 2, 'util.MycharSetUtilsTest')
+data.setCell(1, 3, 36);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'squeeze1')
+data.setCell(2, 2, 'util.MycharSetUtilsTest')
+data.setCell(2, 3, 1);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'keep1')
+data.setCell(3, 2, 'util.MycharSetUtilsTest')
+data.setCell(3, 3, 1);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'delete1')
+data.setCell(4, 2, 'util.MycharSetUtilsTest')
+data.setCell(4, 3, 1);
+window.suiteTableData['openertest']= { tableData: data, tableDiv: 'times-div-openertest'}
 return data;
 }
               </script>
-              <div id="times-div-MycharSetUtilsTest">
-              </div> <!-- times-div-MycharSetUtilsTest -->
+              <span class="suite-total-time">Total running time: 92 ms</span>
+              <div id="times-div-openertest">
+              </div> <!-- times-div-openertest -->
             </div> <!-- times-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="reporter-MycharSetUtilsTest" class="panel">
+        <div panel-name="reporter-openertest" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">Reporter output for MycharSetUtilsTest</span>
+            <span class="header-content">Reporter output for openertest</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="ignored-methods-MycharSetUtilsTest" class="panel">
+        <div panel-name="ignored-methods-openertest" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
-        <div panel-name="chronological-MycharSetUtilsTest" class="panel">
+        <div panel-name="chronological-openertest" class="panel">
           <div class="main-panel-header rounded-window-top">
             <span class="header-content">Methods in chronological order</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">util.MycharSetUtilsTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">containsAny1</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">count1</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">squeeze1</span>
+                <span class="method-start">97 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">keep1</span>
+                <span class="method-start">99 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">delete1</span>
+                <span class="method-start">104 ms</span>
+              </div> <!-- test-method -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->

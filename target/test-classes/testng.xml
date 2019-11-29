@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="openertest">
-<test verbose="1" name="test" junit="true" >
+<test verbose="1" name="test" >
     <classes>
-        <class name="util.MycharSetUtilsTest"/>
+        <class name="MycharSetUtilsTest"/>
     </classes>
 </test>
 </suite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [openertest]">
+  <test name="test(failed)" junit="true">
+    <classes>
+      <class name="util.MycharSetUtilsTest">
+        <methods>
+          <include name="count1"/>
+          <include name="keep1"/>
+          <include name="delete1"/>
+        </methods>
+      </class> <!-- util.MycharSetUtilsTest -->
+    </classes>
+  </test> <!-- test(failed) -->
+</suite> <!-- Failed suite [openertest] -->

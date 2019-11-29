@@ -15,7 +15,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven-surefire-plugin.version>2.19.1</maven-surefire-plugin.version>
         <suiteXmlFile>testng.xml</suiteXmlFile>
+
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -74,7 +76,7 @@
                 <artifactId>maven-surefire-plugin</artifactId>
                 <configuration>
                     <suiteXmlFiles>
-                        <suiteXmlFile>openertest/${suiteXmlFile}</suiteXmlFile>
+                        <suiteXmlFile>testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                 </configuration>
             </plugin>
