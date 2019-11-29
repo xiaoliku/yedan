@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="3" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="openertest" duration-ms="749" started-at="2019-11-29T17:32:25Z" finished-at="2019-11-29T17:32:25Z">
+  <suite name="openertest" duration-ms="194" started-at="2019-11-29T17:41:36Z" finished-at="2019-11-29T17:41:36Z">
     <groups>
     </groups>
-    <test name="test" duration-ms="749" started-at="2019-11-29T17:32:25Z" finished-at="2019-11-29T17:32:25Z">
+    <test name="test" duration-ms="194" started-at="2019-11-29T17:41:36Z" finished-at="2019-11-29T17:41:36Z">
       <class name="util.MycharSetUtilsTest">
-        <test-method status="PASS" signature="containsAny1()[pri:0, instance:containsAny1(util.MycharSetUtilsTest)]" name="containsAny1" duration-ms="36" started-at="2019-11-30T01:32:25Z" finished-at="2019-11-30T01:32:25Z">
+        <test-method status="PASS" signature="containsAny1()[pri:0, instance:containsAny1(util.MycharSetUtilsTest)]" name="containsAny1" duration-ms="6" started-at="2019-11-30T01:41:36Z" finished-at="2019-11-30T01:41:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- containsAny1 -->
-        <test-method status="FAIL" signature="count1()[pri:0, instance:count1(util.MycharSetUtilsTest)]" name="count1" duration-ms="53" started-at="2019-11-30T01:32:25Z" finished-at="2019-11-30T01:32:25Z">
+        <test-method status="FAIL" signature="count1()[pri:0, instance:count1(util.MycharSetUtilsTest)]" name="count1" duration-ms="12" started-at="2019-11-30T01:41:36Z" finished-at="2019-11-30T01:41:36Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<2.0> but was:<1.0>]]>
@@ -77,11 +77,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- count1 -->
-        <test-method status="PASS" signature="squeeze1()[pri:0, instance:squeeze1(util.MycharSetUtilsTest)]" name="squeeze1" duration-ms="1" started-at="2019-11-30T01:32:25Z" finished-at="2019-11-30T01:32:25Z">
+        <test-method status="PASS" signature="squeeze1()[pri:0, instance:squeeze1(util.MycharSetUtilsTest)]" name="squeeze1" duration-ms="0" started-at="2019-11-30T01:41:36Z" finished-at="2019-11-30T01:41:36Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- squeeze1 -->
-        <test-method status="FAIL" signature="keep1()[pri:0, instance:keep1(util.MycharSetUtilsTest)]" name="keep1" duration-ms="1" started-at="2019-11-30T01:32:25Z" finished-at="2019-11-30T01:32:25Z">
+        <test-method status="FAIL" signature="keep1()[pri:0, instance:keep1(util.MycharSetUtilsTest)]" name="keep1" duration-ms="0" started-at="2019-11-30T01:41:36Z" finished-at="2019-11-30T01:41:36Z">
           <exception class="org.junit.ComparisonFailure">
             <message>
               <![CDATA[null expected:<[]> but was:<[null]>]]>
@@ -144,7 +144,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- keep1 -->
-        <test-method status="FAIL" signature="delete1()[pri:0, instance:delete1(util.MycharSetUtilsTest)]" name="delete1" duration-ms="1" started-at="2019-11-30T01:32:25Z" finished-at="2019-11-30T01:32:25Z">
+        <test-method status="FAIL" signature="delete1()[pri:0, instance:delete1(util.MycharSetUtilsTest)]" name="delete1" duration-ms="0" started-at="2019-11-30T01:41:36Z" finished-at="2019-11-30T01:41:36Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<*> but was:<null>]]>
