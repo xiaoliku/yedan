@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="5" failures="3" name="MycharSetUtilsTest" time="0.037" errors="0" skipped="0">
+<testsuite tests="5" failures="3" name="MycharSetUtilsTest" time="0.025" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_231\jre\bin"/>
@@ -63,7 +63,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="MycharSetUtilsTest" name="containsAny1" time="0.007"/>
+  <testcase classname="MycharSetUtilsTest" name="containsAny1" time="0.005"/>
   <testcase classname="MycharSetUtilsTest" name="count1" time="0.02">
     <failure message="expected:&lt;2.0&gt; but was:&lt;1.0&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;2.0&gt; but was:&lt;1.0&gt;
 	at org.junit.Assert.fail(Assert.java:88)
@@ -105,7 +105,7 @@
 </failure>
   </testcase>
   <testcase classname="MycharSetUtilsTest" name="squeeze1" time="0"/>
-  <testcase classname="MycharSetUtilsTest" name="keep1" time="0.005">
+  <testcase classname="MycharSetUtilsTest" name="keep1" time="0">
     <failure message="null expected:&lt;[]&gt; but was:&lt;[null]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: null expected:&lt;[]&gt; but was:&lt;[null]&gt;
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at MycharSetUtilsTest.keep1(MycharSetUtilsTest.java:38)
@@ -142,7 +142,7 @@
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="MycharSetUtilsTest" name="delete1" time="0.005">
+  <testcase classname="MycharSetUtilsTest" name="delete1" time="0">
     <failure message="expected:&lt;*&gt; but was:&lt;null&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected:&lt;*&gt; but was:&lt;null&gt;
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
