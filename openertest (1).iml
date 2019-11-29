@@ -52,5 +52,9 @@
     <orderEntry type="library" name="Maven: org.jboss.arquillian.container:arquillian-container-test-impl-base:1.5.0.Final" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.shrinkwrap:shrinkwrap-impl-base:1.2.6" level="project" />
     <orderEntry type="library" name="Maven: org.jboss.shrinkwrap:shrinkwrap-spi:1.2.6" level="project" />
+    <orderEntry type="library" name="Maven: org.testng:testng:6.8" level="project" />
+    <orderEntry type="library" name="Maven: org.beanshell:bsh:2.0b4" level="project" />
+    <orderEntry type="library" name="Maven: com.beust:jcommander:1.27" level="project" />
+    <orderEntry type="library" name="Maven: org.yaml:snakeyaml:1.6" level="project" />
   </component>
 </module>
