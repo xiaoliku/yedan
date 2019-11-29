@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="3" total="5" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="openertest" duration-ms="194" started-at="2019-11-29T17:41:36Z" finished-at="2019-11-29T17:41:36Z">
+  <suite name="openertest" duration-ms="434" started-at="2019-11-29T18:18:07Z" finished-at="2019-11-29T18:18:08Z">
     <groups>
     </groups>
-    <test name="test" duration-ms="194" started-at="2019-11-29T17:41:36Z" finished-at="2019-11-29T17:41:36Z">
+    <test name="test" duration-ms="434" started-at="2019-11-29T18:18:07Z" finished-at="2019-11-29T18:18:08Z">
       <class name="util.MycharSetUtilsTest">
-        <test-method status="PASS" signature="containsAny1()[pri:0, instance:containsAny1(util.MycharSetUtilsTest)]" name="containsAny1" duration-ms="6" started-at="2019-11-30T01:41:36Z" finished-at="2019-11-30T01:41:36Z">
+        <test-method status="PASS" signature="containsAny1()[pri:0, instance:containsAny1(util.MycharSetUtilsTest)]" name="containsAny1" duration-ms="16" started-at="2019-11-30T02:18:08Z" finished-at="2019-11-30T02:18:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- containsAny1 -->
-        <test-method status="FAIL" signature="count1()[pri:0, instance:count1(util.MycharSetUtilsTest)]" name="count1" duration-ms="12" started-at="2019-11-30T01:41:36Z" finished-at="2019-11-30T01:41:36Z">
+        <test-method status="FAIL" signature="count1()[pri:0, instance:count1(util.MycharSetUtilsTest)]" name="count1" duration-ms="24" started-at="2019-11-30T02:18:08Z" finished-at="2019-11-30T02:18:08Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<2.0> but was:<1.0>]]>
@@ -22,7 +22,7 @@
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:575)
 	at org.junit.Assert.assertEquals(Assert.java:700)
-	at util.MycharSetUtilsTest.count1(MycharSetUtilsTest.java:33)
+	at util.MycharSetUtilsTest.count1(MycharSetUtilsTest.java:34)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -77,11 +77,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- count1 -->
-        <test-method status="PASS" signature="squeeze1()[pri:0, instance:squeeze1(util.MycharSetUtilsTest)]" name="squeeze1" duration-ms="0" started-at="2019-11-30T01:41:36Z" finished-at="2019-11-30T01:41:36Z">
+        <test-method status="PASS" signature="squeeze1()[pri:0, instance:squeeze1(util.MycharSetUtilsTest)]" name="squeeze1" duration-ms="1" started-at="2019-11-30T02:18:08Z" finished-at="2019-11-30T02:18:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- squeeze1 -->
-        <test-method status="FAIL" signature="keep1()[pri:0, instance:keep1(util.MycharSetUtilsTest)]" name="keep1" duration-ms="0" started-at="2019-11-30T01:41:36Z" finished-at="2019-11-30T01:41:36Z">
+        <test-method status="FAIL" signature="keep1()[pri:0, instance:keep1(util.MycharSetUtilsTest)]" name="keep1" duration-ms="4" started-at="2019-11-30T02:18:08Z" finished-at="2019-11-30T02:18:08Z">
           <exception class="org.junit.ComparisonFailure">
             <message>
               <![CDATA[null expected:<[]> but was:<[null]>]]>
@@ -89,7 +89,7 @@
             <full-stacktrace>
               <![CDATA[org.junit.ComparisonFailure: null expected:<[]> but was:<[null]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
-	at util.MycharSetUtilsTest.keep1(MycharSetUtilsTest.java:40)
+	at util.MycharSetUtilsTest.keep1(MycharSetUtilsTest.java:41)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -144,7 +144,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- keep1 -->
-        <test-method status="FAIL" signature="delete1()[pri:0, instance:delete1(util.MycharSetUtilsTest)]" name="delete1" duration-ms="0" started-at="2019-11-30T01:41:36Z" finished-at="2019-11-30T01:41:36Z">
+        <test-method status="FAIL" signature="delete1()[pri:0, instance:delete1(util.MycharSetUtilsTest)]" name="delete1" duration-ms="2" started-at="2019-11-30T02:18:08Z" finished-at="2019-11-30T02:18:08Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected:<*> but was:<null>]]>
@@ -154,7 +154,7 @@
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
 	at org.junit.Assert.assertEquals(Assert.java:118)
-	at util.MycharSetUtilsTest.delete1(MycharSetUtilsTest.java:53)
+	at util.MycharSetUtilsTest.delete1(MycharSetUtilsTest.java:54)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
