@@ -86,20 +86,25 @@
             </plugin>
         </plugins>
         <defaultGoal>compile</defaultGoal>
+
         <resources>
             <resource>
-                <directory>src/main/resources</directory>
+                <directory>src/main/java</directory>
                 <includes>
                     <include>META-INF/*.SF</include>
                     <include>META-INF/*.DSA</include>
                     <include>META-INF/*.RSA</include>
                     <include>META-INF/*.MF</include>
+                    <include>**/*.xml</include>
                 </includes>
+                <filtering>true</filtering>
                 <excludes>
                     <exclude>META-INF/*</exclude>
                 </excludes>
             </resource>
+
         </resources>
+
     </build>
 
 </project>
