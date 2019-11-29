@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 2.083 sec <<< FAILURE!
-count1 on count1(util.MycharSetUtilsTest)(util.MycharSetUtilsTest)  Time elapsed: 0.025 sec  <<< FAILURE!
+Tests run: 5, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 1.055 sec <<< FAILURE!
+count1 on count1(util.MycharSetUtilsTest)(util.MycharSetUtilsTest)  Time elapsed: 0.015 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<2.0> but was:<1.0>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)
@@ -10,12 +10,12 @@ java.lang.AssertionError: expected:<2.0> but was:<1.0>
 	at org.junit.Assert.assertEquals(Assert.java:700)
 	at util.MycharSetUtilsTest.count1(MycharSetUtilsTest.java:34)
 
-keep1 on keep1(util.MycharSetUtilsTest)(util.MycharSetUtilsTest)  Time elapsed: 0.005 sec  <<< FAILURE!
+keep1 on keep1(util.MycharSetUtilsTest)(util.MycharSetUtilsTest)  Time elapsed: 0.004 sec  <<< FAILURE!
 org.junit.ComparisonFailure: null expected:<[]> but was:<[null]>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at util.MycharSetUtilsTest.keep1(MycharSetUtilsTest.java:41)
 
-delete1 on delete1(util.MycharSetUtilsTest)(util.MycharSetUtilsTest)  Time elapsed: 0.004 sec  <<< FAILURE!
+delete1 on delete1(util.MycharSetUtilsTest)(util.MycharSetUtilsTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected:<*> but was:<null>
 	at org.junit.Assert.fail(Assert.java:88)
 	at org.junit.Assert.failNotEquals(Assert.java:834)

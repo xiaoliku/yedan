@@ -78,8 +78,15 @@
                         <suiteXmlFile>res/testng.xml</suiteXmlFile>
                     </suiteXmlFiles>
                         <testFailureIgnore>true</testFailureIgnore>
+                    <includes>
+                        <include>**/*Test.java</include>    <!-- //////////// -->
+                    </includes>
+                    <excludes>
+                        <!-- -->
+                    </excludes>
                 </configuration>
             </plugin>
+            
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -94,6 +101,7 @@
                     </execution>
                 </executions>
             </plugin>
+
 
             <!-- Compilation -->
             <plugin>
